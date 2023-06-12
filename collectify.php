@@ -2,16 +2,16 @@
 /**
  * Plugin Name: Collectify
  * Description:  A plugin allows you to add a contract address to blocks of content or posts within WordPress, providing exclusive access to content solely for NFT holders.
- * Plugin URI:  https://github.com/unlock-protocol/collectify
+ * Plugin URI:  https://github.com/CollectifyApp/Collectify-WordPress-Plugin
  * Author:      Collectify
  * Author URI:  https://collectify.app/
- * Version:     4.0.1
+ * Version:     1.0.0
  * Text Domain: collectify
  *
  * @package collectify
  */
 
-define( 'UNLOCK_PLUGIN_VERSION', '4.0.1' );
+define( 'COLLECTIFY_PLUGIN_VERSION', '1.0.0' );
 define( 'UNLOCK_PROTOCOL_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'UNLOCK_PROTOCOL_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
 define( 'UNLOCK_PROTOCOL_BUILD_DIR', UNLOCK_PROTOCOL_PATH . '/assets/build' );

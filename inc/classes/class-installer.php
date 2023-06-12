@@ -46,7 +46,7 @@ class Installer {
 			update_option( 'unlock_protocol_installed', time() );
 		}
 
-		update_option( 'unlock_protocol_version', UNLOCK_PLUGIN_VERSION );
+		update_option( 'unlock_protocol_version', COLLECTIFY_PLUGIN_VERSION );
 	}
 
 	/**
