@@ -21,13 +21,13 @@ To add a smart contract to gate a block of content:
 
 After publishing your post or page, readers will be prompted to connect their crypto wallets to access the full content. If they have the necessary NFT, they will be able to view the content. If they do not own the NFT, they will be directed to a minting page where they can create one.
 
-## Getting Started
+# Getting Started
 
 If you'd like to add a contract to your site, start by [deploying your smart contract](https://launchpad.collectify.app/#/erc721?type=ERC721). We strongly recommend starting with a test network such as Goerli.
 
 Once you have deployed the contract, you can obtain the plugin from the WordPress site. From the administration section of your WordPress.org website, navigate to the Plugins tab and click the "Add New" button. Search for "Collectify" and then click the "Install Now" button to install the plugin.
 
-## Setup of Collectify Plugin
+# Setup of Collectify Plugin
 
 With Collectify plugin, you have the option to add a contract either to entire posts using post-level settings or to specific blocks within posts or pages using block-level settings. Once your post or page includes the content you need, you can preview it like any other post or page in WordPress.
 
@@ -40,7 +40,7 @@ To add a contract to your post or page, please follow the following steps:
 
 After publishing your post or page, your blog readers will be prompted to connect their crypto wallet to access the full content. If they have the necessary NFT, they will be able to view the content. However, if they do not own the NFT, they will be directed to a minting page where they can create one.
 
-## About Collectify
+# About Collectify
 
 [Collectify](https://collectify.app/) is an operating system for NFT creators and communities. Through a friendly UI at Collectify, anyone can create NFTs without coding, and promote and sell NFTs without hassles.
 
