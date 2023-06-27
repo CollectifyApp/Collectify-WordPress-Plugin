@@ -172,7 +172,7 @@ class Unlock {
 				'redirectUri'   => $redirect_uri,
 				'paywallConfig' => wp_json_encode( $paywall_config ),
 			),
-			'https://launchpad.collectify.dev/main/api/redirect'
+			'https://launchpad.collectify.app/main/api/redirect'
 		);
 
 		return $checkout_url;
@@ -261,7 +261,7 @@ class Unlock {
 //			'https://app.unlock-protocol.com/checkout'
 //		);
         $redirect_uri = $redirect_uri ? $redirect_uri : self::get_redirect_uri();
-        $login_url = 'https://launchpad.collectify.dev/#/wordpressLogin?redirect_uri='.$redirect_uri.'&state='.wp_create_nonce( 'unlock_login_state' );
+        $login_url = 'https://launchpad.collectify.app/#/wordpressLogin?redirect_uri='.$redirect_uri.'&state='.wp_create_nonce( 'unlock_login_state' );
         return apply_filters( 'unlock_protocol_get_login_url', $login_url );
 	}
 
